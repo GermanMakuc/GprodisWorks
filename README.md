@@ -1,5 +1,7 @@
 # GprodisWorks
 
-Aplicaciones creadas con bootstrap, javascript y PHP nativo
+Gprodis Agencia de Diseño e Imprenta Digital 2015
 
-Demo: http://apprestaurant.rf.gd/public/
+Plantillas creadas con bootstrap, javascript y PHP nativo para pequeñas pymes
+
+Directorio: http://gprodis.rf.gd/
