@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cava - Contacto</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="./css/bootstrap.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="./js/functions.js"></script>
+</head>
+<body>
+	<audio src="./music/The_Engine_Room.mp3" autoplay loop></audio>
+		<div class="container">
+						<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 header">
+					<img class="text-left" src="./images/logo-01.png" id="image" width="12%">
+					<img id="slogan" class="text-right" src="./images/text-01.png" width="60%">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 menu text-center">
+					<a class="btn btn-default" href="./inicio.html" role="button">
+						<strong>INICIO</strong>
+					</a>
+					<a class="btn btn-default" href="./kardex.html" role="button">
+						<strong>KARDEX</strong>
+					</a>
+					<a class="btn btn-default" href="./armado.html" role="button">
+						<strong>ARMADO</strong>
+					</a>
+					<a class="btn btn-default" href="./empresa.html" role="button">
+						<strong>EMPRESA</strong>
+					</a>
+					<a class="btn btn-default" href="./contacto.html" role="button">
+						<strong>CONTACTO</strong>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 box-center">
+					<div class="col-xs-12 col-sm-12 col-md-5">
+						<img id="contact" class="text-left" src="./images/contacto.png" width="40%"/>
+						<img id="texto-contacto" class="text-center" src="./images/text-op.png" width="100%"/>
+					<form role="form" name="formulario" method="post" action="./get.php" onsubmit="return validate()">
+						  <div class="form-group">
+						    <input type="text" class="form-control" name="nombre" placeholder="NOMBRE/RAZÓN SOCIAL:" required>
+						  </div>
+						  <div id="2" class="form-group">
+						    <input type="text" class="form-control" name="rut" placeholder="RUT:" required>
+						  </div>
+						  <div class="form-group">
+						    <input type="text" class="form-control" name="giro" placeholder="GIRO:" required>
+						  </div>
+						  <div class="form-group">
+						    <input type="text" class="form-control" name="direccion" placeholder="DIRECCIÓN:" required>
+						  </div>
+						  <div class="form-group">
+						    <input type="text" class="form-control" name="comuna" placeholder="COMUNA:" required>
+						  </div>
+						  <div class="form-group">
+						    <input type="email" class="form-control" name="email" placeholder="EMAIL:" required>
+						  </div>
+						  <div id="1" class="form-group">
+						    <input type="text" class="form-control" name="telefono" placeholder="TELEFONO:" required>
+						  </div>
+						  <div class="form-group">
+						    <input type="text" class="form-control" name="contacto" placeholder="CONTACTO:" required>
+						  </div>
+						  <div class="text-right">
+						  	<button type="submit" class="boton">ENVIAR</button>
+						  </div>
+					</form>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-7 text-center">
+						<img id="caja" src="./images/box-contact.png" width="80%"/>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 box-buy text-right">
+							<img src="./images/info-con.png" width="35%"/>
+							<a target="_blank" 
+					href="https://www.webpay.cl/portalpagodirecto/pages/institucion.jsf?idEstablecimiento=17095941"><img id="img_webplay" src="./images/webplay.png" /></a>
+						</div>
+			</div>
+		</div>
+		<div class="container">
+						<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 foot">
+					<div class="text-center">
+						<ul class="list-inline">
+  							<li class="text-danger"><strong>CAVA CHILE SPA</strong></li>
+  							<li><strong>contacto@cava-chile.cl</strong></li>
+  							<li><strong>Tel: 2293 66473</strong></li>
+  							<li>
+  									<img src="./images/Whatsapp_icon.png" />
+  								<strong>Cel: +569 95498265</strong>
+  							</li>
+  							<li>
+  								<a href="https://www.facebook.com/cavachilespa">
+  									<img src="./images/facebook-icon.png" />
+  								</a>
+  								<strong>CAVA CHILE SPA</strong>
+  							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<script src="./js/jquery.js"></script>
+	<script src="./js/bootstrap.min.js"></script>	
+</body>
+</html>

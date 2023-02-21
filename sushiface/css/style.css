@@ -1,0 +1,262 @@
+/* navbar */
+.navbar-default {
+    background-color: transparent;
+    border:none;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: white;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #3ADF00;
+
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+a:visited { color: white; }
+a:link { color: white; }
+a:active { color: white; }
+
+.navbar-nav > li > a {
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.btn-link:hover, .btn-link:focus{color: #3ADF00; text-decoration: none;}
+.btn-link:link {color: white;}
+.btn-link {color: white;}
+
+.btn-default {
+    color: white;
+    background-color: red;
+    width: 100%;
+    border: none;
+}
+.btn-default:hover {
+    color: white;
+    background-color: red;
+    border:none;
+    }
+
+
+
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-send
+{
+    background-color: #FF4000;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+
+.menu{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+    padding-top: 6%;
+}
+.menu_relleno
+{
+    padding-top: 2%;
+}
+.trans{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+.trans-1{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+.menu_c {background-color: rgba(255,0,0,1); color: yellow;}
+.menu_d {background-color: #bfbfbf; padding-top: 10px;padding-bottom: 10px;}
+
+.textheader{
+    color: white;
+    margin-left: 30%;
+    margin-top: 1%;
+}
+
+.franja1{background-color: #C71585;color: white; padding-top: 5px;padding-bottom: 5px;}
+.franja2{background-color: #1E90FF; color: white; padding-top: 5px;padding-bottom: 5px;}
+.franja3{background-color: white; color: white;}
+.mascara{background-color: rgba(0,0,0,0.5); padding: 3%;}
+#contacto{margin-top: 150px;}
+.ajuste{margin-top: 290px;}
+.bg_emp{
+    padding: 3%;
+    background-image: url("../images/bg_empresa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg_combo{
+    padding: 3%;
+    background-image: url("../images/bg_combo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg_product{
+    padding: 3%;
+    background-image: url("../images/bg_products.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg_contact{
+    padding: 3%;
+    background-image: url("../images/bg_contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-menu{padding-top: 1%; padding-right: 3%; padding-left: 2%;}
+.ball{color: #ADFF2F; display: inline;}
+.photos{width: 40%; margin: 2%; margin-top: 8%;}
+.social{width: 30px;}
+.footer {background-color: black; padding: 1%;}
+.footer1 {background-color: white; padding: 1%;}
+.resena {color: white;text-indent: 5%;}
+.box-right {padding-right: 8%; padding-left: 4%; padding-top: 5%; padding-bottom: 7%;}
+.container {padding-bottom: 3%;}
+.text-error {color: red;}
+.mas_orange{background-color: orange;color: white; width: 95%; margin-top: 5%;}
+.relleno_c { padding-left: 13%; margin-top: -3%;}
+.container{padding-bottom: 1%;}
+.ball{color: #3ADF00; display: inline;}
+#titulo{padding-top: 10%;margin-right: 5%; padding-bottom: 5%;}
+#titulo1{padding-top: 8%;margin-right: 5%;}
+
+.combos_relleno{margin-bottom: 300px;}
+.product_relleno{margin-top: 3%; padding: 2%;}
+.relleno_text{padding-left: 4%;padding-right: 4%; padding-top: 2%; padding-bottom: 4%;}
+.relleno_text1{
+    padding-left: 4%;padding-right: 4%; padding-top: 2%; padding-bottom: 4%;
+    background-image: url("../images/bg_contact.png");
+    background-repeat: no-repeat;
+    background-size: cover;}
+body{
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header{
+	background-color: gray;
+}
+.header1{
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header2{
+	background-image: url("../images/header2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header3{
+	background-image: url("../images/header3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.body {
+	background-image: url("../images/body.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bodyE
+{
+	background-image: url("../images/background_e.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.box-center{
+	background-color: #424242;
+    color: white;
+}
+#content-4
+{
+	height: 800px;
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-bottom: 10%;
+}
+#muestra
+{
+	height: 740px;
+	margin-top: -3%;
+}
+.contact1
+{
+	background-color: rgba(0,0,0,0.3); 
+	 color: white; 
+	 padding: 3%; 
+	 border: 2px solid gray;
+	 margin-bottom: 3%;
+}
+#logo{width: 85%;}
+#phone{width: 75%;padding: 3%; margin-top: 10%; margin-left: 7%;}
+#text_orange {padding: 1%; }
+#empresa{width: 50%; margin-bottom: 5%;}
+#emp_label{color: red; padding-top: 60%; margin-bottom: 2%;}
+#contact2{width: 100%; margin-top: 25%;}
+hr {border-top: 3px solid red; }
+
+a:hover,a:focus{text-decoration: none;}
+a[href^="mailto:"] {color: black;}
